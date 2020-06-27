@@ -10,6 +10,27 @@ export default class Zumba extends React.Component{
                 source={require("../assets/zumba.jpeg")}
                 style={{width:200, height: 200}}/>
                 </View>
+
+                <View>
+                <Image
+                source={require("../assets/zumba1.jpeg")}
+                style={{width:200, height: 200}}/>
+                <Text></Text>
+                </View>
+
+                <View>
+                <Image
+                source={require("../assets/zumba2.jpeg")}
+                style={{width:200, height: 200}}/>
+                <Text></Text>
+                </View>
+
+                <View>
+                <Image
+                source={require("../assets/zumba3.jpeg")}
+                style={{width:200, height: 200}}/>
+                <Text></Text>
+                </View>
             </View>
         )
     }

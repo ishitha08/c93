@@ -10,6 +10,20 @@ export default class Yoga extends React.Component{
                 source={require("../assets/yoga.jpg")}
                 style={{width:200, height: 200}}/>
                 </View>
+
+                <View>
+                <Image
+                source={require("../assets/yoga2.jpeg")}
+                style={{width:200, height: 200}}/>
+                <Text></Text>
+                </View>
+
+                <View>
+                <Image
+                source={require("../assets/yoga3.jpeg")}
+                style={{width:200, height: 200}}/>
+                <Text></Text>
+                </View>
             </View>
         )
     }
